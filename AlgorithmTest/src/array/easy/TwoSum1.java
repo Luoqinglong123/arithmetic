@@ -7,7 +7,7 @@ package array.easy;
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
  */
-public class TwoSum {
+public class TwoSum1 {
 	public static void main(String[] args) {
 		int[] nums = { 3, 2, 11, 15 };
 		int[] twoSum = twoSum(nums, 5);
