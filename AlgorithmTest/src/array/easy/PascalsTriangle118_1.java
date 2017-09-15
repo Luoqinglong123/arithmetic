@@ -24,6 +24,7 @@ public class PascalsTriangle118_1 {
 	public static void main(String[] args) {
 		List<List<Integer>> generate = generate(5);
 		for (List<Integer> list : generate) {
+			System.out.println();
 			for (Integer integer : list) {
 				System.out.print(integer+"\t");
 			}

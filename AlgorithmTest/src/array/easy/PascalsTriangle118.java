@@ -22,27 +22,30 @@ public class PascalsTriangle118 {
 		}
 		return res;
 	}
-	 public static void printYFTriangle1(){
-	        int[] a = new int[5 + 1];
-	        int previous = 1;
-	        for (int i = 1; i <= 5; i ++){
-	            for (int j = 1; j <= i; j++){
-	                int current = a[j];
-	                a[j] = previous + current;
-	                previous = current;
-	                System.out.print(a[j] + " ");
-	            }
-	            System.out.println();
-	        }
-	    }
-	public static void main(String[] args) {/*
-		List<List<Integer>> generate = generate(5);
-		for (List<Integer> list : generate) {
-			System.out.println();
-			for (Integer integer : list) {
-				System.out.print(integer + "\t");
+
+	public static void printYFTriangle1() {
+		int[] a = new int[5 + 1];
+		int previous = 1;
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 1; j <= i; j++) {
+				int current = a[j];
+				a[j] = previous + current;
+				previous = current;
+				System.out.print(a[j] + " ");
 			}
+			System.out.println();
 		}
-	*/
-		printYFTriangle1();}
+	}
+
+	public static void main(String[] args) {/*
+											 * List<List<Integer>> generate =
+											 * generate(5); for (List<Integer>
+											 * list : generate) {
+											 * System.out.println(); for
+											 * (Integer integer : list) {
+											 * System.out.print(integer + "\t");
+											 * } }
+											 */
+		printYFTriangle1();
+	}
 }
