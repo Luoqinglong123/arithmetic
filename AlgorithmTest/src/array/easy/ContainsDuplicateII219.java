@@ -1,6 +1,9 @@
 package array.easy;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class ContainsDuplicateII219 {
@@ -21,6 +24,21 @@ public class ContainsDuplicateII219 {
 		return false;
 
 	}
+	   public static  int findMaxConsecutiveOnes(int[] nums) {
+	        int pro =  0;
+	        List<Integer> list = new ArrayList<>();
+	        for (int i = 0; i < nums.length; i++) {
+	            if(nums[i]==1){
+	                list.add(++pro);
+	            }
+	                else {
+	                pro=0;
+	            }
+	        }
+	      Object[] array = list.toArray();
+	        Arrays.sort(array);
+	            return (int) array[array.length-1];
+	    }
 
 	public static boolean containsNearbyDuplicate1(int[] nums, int k) {
 		Set<Integer> set = new HashSet<Integer>();
