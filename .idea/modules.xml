@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/arithmetic.iml" filepath="$PROJECT_DIR$/.idea/arithmetic.iml" />
-      <module fileurl="file://E:/WorkSpaces/arithmetic/arithmetic1/arithmetic1.iml" filepath="E:/WorkSpaces/arithmetic/arithmetic1/arithmetic1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmTest/AlgorithmTest.iml" filepath="$PROJECT_DIR$/AlgorithmTest/AlgorithmTest.iml" />
     </modules>
   </component>
 </project>
