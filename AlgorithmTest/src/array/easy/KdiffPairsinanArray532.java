@@ -10,7 +10,7 @@ import java.util.List;
  * @author LQL
  * @create 2017-09-20 18:07
  **/
-public class KdiffPairsinanArray {
+public class KdiffPairsinanArray532 {
     public static void main(String[] args) {
         int[] nums = {1, 3, 1, 5, 4};
         System.out.println(findPairs(nums, 0));
