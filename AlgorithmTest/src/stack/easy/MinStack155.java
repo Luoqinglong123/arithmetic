@@ -29,19 +29,18 @@ public class MinStack155 {
 		if (stack.isEmpty())
 			throw new RuntimeException("Õ»Îª¿Õ");
 		Long pop = stack.pop();
-		if(pop<0)
-			min=min-pop;
+		if (pop < 0)
+			min = min - pop;
 	}
 
 	public int top() {
 		if (stack.isEmpty())
 			throw new RuntimeException("Õ»Îª¿Õ");
-		Long peek = stack.peek();
-		if(peek>0)
-			return (int) (peek+min);
+		long peek = stack.peek();
+		if (peek > 0)
+			return (int) (peek + min);
 		return (int) min;
-		
-		
+
 	}
 
 }
