@@ -36,7 +36,7 @@ public class MinStack155 {
 	public int top() {
 		if (stack.isEmpty())
 			throw new RuntimeException("Õ»Îª¿Õ");
-		long peek = stack.peek();
+		Long peek = stack.peek();
 		if (peek > 0)
 			return (int) (peek + min);
 		return (int) min;
