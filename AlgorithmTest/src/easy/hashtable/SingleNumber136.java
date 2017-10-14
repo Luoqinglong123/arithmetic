@@ -1,4 +1,4 @@
-package hashtable.easy;
+package easy.hashtable;
 
 public class SingleNumber136 {
 	public static void main(String[] args) {

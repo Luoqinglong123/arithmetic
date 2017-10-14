@@ -1,4 +1,4 @@
-package hashtable.easy;
+package easy.hashtable;
 
 public class ValidAnagram242 {
 	  public boolean isAnagram(String s, String t) {

@@ -1,4 +1,4 @@
-package hashtable.easy;
+package easy.hashtable;
 
 public class FindtheDifference389 {
 	public static void main(String[] args) {

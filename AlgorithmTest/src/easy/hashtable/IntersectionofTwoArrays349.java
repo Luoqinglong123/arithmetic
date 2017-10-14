@@ -1,4 +1,4 @@
-package hashtable.easy;
+package easy.hashtable;
 
 import java.util.HashSet;
 import java.util.Set;

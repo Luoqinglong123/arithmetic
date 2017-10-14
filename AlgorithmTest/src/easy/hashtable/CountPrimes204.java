@@ -1,4 +1,4 @@
-package hashtable.easy;
+package easy.hashtable;
 
 public class CountPrimes204 {
 	public int countPrimes(int n) {
