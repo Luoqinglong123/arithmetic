@@ -1,4 +1,4 @@
-package stack.easy;
+package easy.stack;
 
 import java.util.Stack;
 
@@ -27,7 +27,7 @@ public class MinStack155 {
 
 	public void pop() {
 		if (stack.isEmpty())
-			throw new RuntimeException("ջΪ��");
+			throw new RuntimeException("ջΪ��");
 		Long pop = stack.pop();
 		if (pop < 0)
 			min = min - pop;
@@ -35,7 +35,7 @@ public class MinStack155 {
 
 	public int top() {
 		if (stack.isEmpty())
-			throw new RuntimeException("ջΪ��");
+			throw new RuntimeException("ջΪ��");
 		Long peek = stack.peek();
 		if (peek > 0)
 			return (int) (peek + min);

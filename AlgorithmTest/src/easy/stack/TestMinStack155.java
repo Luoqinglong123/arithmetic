@@ -1,4 +1,4 @@
-package stack.easy;
+package easy.stack;
 
 import org.junit.Test;
 
