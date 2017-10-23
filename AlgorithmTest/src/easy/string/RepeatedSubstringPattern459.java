@@ -13,7 +13,6 @@ public class RepeatedSubstringPattern459 {
 				String substring = s.substring(0, i);
 				StringBuilder sb = new StringBuilder();
 				for (int j = 0; j < m; j++) {
-					
 					sb.append(substring);
 				}
 				
